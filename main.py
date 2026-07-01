@@ -1,3 +1,9 @@
+import urllib.request
+
+# Baixa o arquivo do Google Drive
+url = "https://drive.google.com/uc?export=download&id=1P6wLDJsG6FbJcw_W2Gp1ghie_JlgB4fS"
+urllib.request.urlretrieve(url, "Snow249.txt" )
+
 import os
 import json
 import uuid
